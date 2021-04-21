@@ -37,7 +37,7 @@ const Blogs=() =>{
                     {blogs?.articles?.map((blog)=>(
                         <a className="blog" target="_blank" href={blog.url}>
                             <img src={blog.image}/>
-                            <div>
+                            <div >
                                 <h3 className="sourceName">
                                     <span>{blog.source.name}</span>
                                     <p>{blog.publishedAt}</p>
